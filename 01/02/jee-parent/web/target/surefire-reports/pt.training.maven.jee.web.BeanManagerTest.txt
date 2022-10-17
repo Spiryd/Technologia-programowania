@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: pt.training.maven.jee.web.BeanManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.329 sec <<< FAILURE!
+pt.training.maven.jee.web.BeanManagerTest  Time elapsed: 0.329 sec  <<< ERROR!
+org.jboss.arquillian.impl.event.FiredEventException: org.jboss.weld.exceptions.WeldException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @25fb0107
+	at org.jboss.arquillian.impl.event.MapEventManager.fire(MapEventManager.java:68)
+	at org.jboss.arquillian.impl.context.AbstractEventContext.fire(AbstractEventContext.java:115)
+	at org.jboss.arquillian.impl.EventTestRunnerAdaptor.beforeClass(EventTestRunnerAdaptor.java:96)
+	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:162)
+	at org.jboss.arquillian.junit.Arquillian$3$1.evaluate(Arquillian.java:186)
+	at org.jboss.arquillian.junit.Arquillian$MultiStatementExecutor.execute(Arquillian.java:297)
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:182)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:127)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.jboss.weld.exceptions.WeldException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @25fb0107
+	at org.jboss.weld.bean.proxy.ProxyFactory.getProxyClass(ProxyFactory.java:287)
+	at org.jboss.weld.bean.proxy.ProxyFactory.create(ProxyFactory.java:214)
+	at org.jboss.weld.bean.builtin.ee.AbstractEEBean.<init>(AbstractEEBean.java:46)
+	at org.jboss.weld.bean.builtin.ee.UserTransactionBean.<init>(UserTransactionBean.java:60)
+	at org.jboss.weld.bootstrap.BeanDeployment.deployBeans(BeanDeployment.java:199)
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:364)
+	at org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.TestContainer.startContainer(TestContainer.java:258)
+	at org.jboss.arquillian.container.weld.ee.embedded_1_1.WeldEEMockContainer.deploy(WeldEEMockContainer.java:71)
+	at org.jboss.arquillian.impl.handler.ContainerDeployer.callback(ContainerDeployer.java:62)
+	at org.jboss.arquillian.impl.handler.ContainerDeployer.callback(ContainerDeployer.java:50)
+	at org.jboss.arquillian.impl.event.MapEventManager.fire(MapEventManager.java:63)
+	... 18 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @25fb0107
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:387)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:363)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:311)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:201)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:195)
+	at org.jboss.weld.util.bytecode.ClassFileUtils.toClass2(ClassFileUtils.java:142)
+	at org.jboss.weld.util.bytecode.ClassFileUtils.toClass(ClassFileUtils.java:109)
+	at org.jboss.weld.bean.proxy.ProxyFactory.createProxyClass(ProxyFactory.java:402)
+	at org.jboss.weld.bean.proxy.ProxyFactory.getProxyClass(ProxyFactory.java:283)
+	... 28 more
+

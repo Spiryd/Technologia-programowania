@@ -1,0 +1,14 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="pt.training.maven.jee.ejb.HelloWorldTest">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="pt.training.maven.jee.ejb.HelloWorldTest">
+        <test-method signature="testGetText()" started-at="2022-10-17T16:26:29Z" name="testGetText" finished-at="2022-10-17T16:26:29Z" duration-ms="3" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
