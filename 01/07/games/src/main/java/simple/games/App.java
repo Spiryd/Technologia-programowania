@@ -51,6 +51,8 @@ public class App
                         case 3:
                             System.out.println("IT'S A DRAW!!!!");
                             break;
+                        default:
+                            break;
                     }
                     
                     break;
@@ -79,6 +81,8 @@ public class App
 
                         case 3:
                             System.out.println("IT'S A DRAW!!!!");
+                            break;
+                        default:
                             break;
                     }
                     break;    

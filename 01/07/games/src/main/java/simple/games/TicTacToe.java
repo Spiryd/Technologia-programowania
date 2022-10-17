@@ -111,7 +111,7 @@ public class TicTacToe
             {
                 board[y][x] = 1;
 
-                avaliableSpaces.remove(Integer.valueOf((y*3) + x));
+                avaliableSpaces.remove(Integer.valueOf(y*3 + x));
 
                 this.check();
                 if(gameState == 0)

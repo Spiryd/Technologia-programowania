@@ -227,7 +227,7 @@ public class Connect4
             counterPlayer2 = 0;    
         
 
-            for(int k = (i - 5); k < 7; k++)
+            for(int k = i - 5; k < 7; k++)
             {
                 switch (board[i-k][k]) 
                 {
