@@ -6,7 +6,7 @@
     </groups>
     <test name="Command line test">
       <class name="pt.training.maven.jee.ejb.HelloWorldTest">
-        <test-method signature="testGetText()" started-at="2022-10-17T16:26:29Z" name="testGetText" finished-at="2022-10-17T16:26:29Z" duration-ms="3" status="PASS">
+        <test-method signature="testGetText()" started-at="2022-10-23T20:45:11Z" name="testGetText" finished-at="2022-10-23T20:45:11Z" duration-ms="3" status="PASS">
         </test-method>
       </class>
     </test>
