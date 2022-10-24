@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Gaming app
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {

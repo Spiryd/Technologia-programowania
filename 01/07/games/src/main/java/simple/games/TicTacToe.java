@@ -100,7 +100,7 @@ public class TicTacToe
                     break;
             
                 case 'C':
-                    x = 2;
+                    x = 2; 
                     break;
             
                 default:
