@@ -17,7 +17,7 @@ public class TicTacToe
 
     public int gameState = 0;// 0-unresolved, 1-won, 2-draw, 3-lost
 
-    private Random rand = new Random();
+    private Random rand = new Random(); 
 
     TicTacToe()
     {
@@ -100,7 +100,7 @@ public class TicTacToe
                     break;
             
                 case 'C':
-                    x = 2;
+                    x = 2; 
                     break;
             
                 default:
