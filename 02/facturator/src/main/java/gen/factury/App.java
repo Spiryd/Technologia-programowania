@@ -10,7 +10,7 @@ public class App
 {
   public static void main( String[] args )
   {
-    try(Scanner scanner = new Scanner(System.in);){
+    try(Scanner scanner = new Scanner(System.in)){
       System.out.println("WELCOME TO FACTURATOR!!!");
       boolean exit = false;
       String choice;
