@@ -1,5 +1,5 @@
 package gen.factury;
-
+//odpowiada za przechowanie informacji o klijencie
 public class Klient
 {
     int nip;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//odpowiada za przechowanie faktury dodawanie do niej elementów i drukowanie
 public class Faktura {
     private final int numer;
     private final Date data;

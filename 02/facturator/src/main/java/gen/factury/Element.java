@@ -1,5 +1,5 @@
 package gen.factury;
-
+//odpowiada za przechowanie i komunikowanie zawartośći linijki na fakturze
 public class Element {
     int ilosc;
     private final Produkt produkt;
