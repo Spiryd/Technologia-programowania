@@ -6,6 +6,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 //odpowiada za przechowanie faktury dodawanie do niej elementów i drukowanie
 public class Faktura {
+
+    private Klient klient;
     private final int numer;
     private final Date data;
     private final List<Element> elementy = new ArrayList<>();
@@ -16,7 +18,7 @@ public class Faktura {
         elementy.add(nowyElement);
     }
 
-    public void print(Klient klient){
+    public void print(){
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         System.out.printf("data:%s numer:%d%n",formatter.format(data), numer);
         System.out.printf("Odbiorca:%s NIP:%d%n",klient.nazwa, klient.nip);
@@ -38,9 +40,10 @@ public class Faktura {
         return suma;
     }
 
-    Faktura(int numer){
+    Faktura(int numer, Klient klient){
         this.numer = numer;
         this.data = new Date();
+        this.klient =  klient;
     }
 
 }

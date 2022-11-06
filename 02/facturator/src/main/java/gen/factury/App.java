@@ -2,6 +2,7 @@ package gen.factury;
 
 import java.util.Scanner;
 
+// odpowiada z komunikacje z urzytkownikiem
 public class App 
 {
   public static void main( String[] args )
@@ -27,7 +28,7 @@ public class App
             System.out.print("Numer faktury: ");
             numerFaktury = Integer.parseInt(scanner.nextLine());
             Klient klient = new Klient( nip, nazwaKlienta);
-            Faktura faktura = new Faktura(numerFaktury);
+            Faktura faktura = new Faktura(numerFaktury, klient);
             boolean exitFaktura = false;
             while(!exitFaktura){
               System.out.println("Choose your poison:\n1. Dodaj Element\n2. Drukuj\n3. Zapisz do Bazy\n4. Wyjdz");
@@ -48,11 +49,12 @@ public class App
                   break;
 
                 case "2":
-                  faktura.print(klient);
+                  faktura.print();
                   break;
 
                 case "3":
-                  System.out.println("WIP");
+                  DataService dataService = new DataService(new DataMenager1());
+                  dataService.dodajDoBazy(faktura);
                   break;
 
                 case "4":
