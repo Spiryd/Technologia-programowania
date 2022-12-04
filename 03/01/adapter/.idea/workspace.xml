@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b9c5635-44b3-4d08-add4-05c94a0b3ff2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/BasicConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/InternetManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/protocol/GSMProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/protocol/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/protocol/ProtocolSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/protocol/WIFIProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/main/java/eu/jpereira/trainings/designpatterns/structural/bridge/protocol/WIMAXProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/BasicConnectionManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/ConnectionManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/GSMProtocolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/InternetManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/ProtocolSelectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/ProtocolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/WIFIProtocolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/bridge/src/test/java/eu/jpereira/trainings/designpatterns/structural/bridge/WIMAXProtocolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/chain/filter/AbstractFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/IntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/FakeFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/FakeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/FakeServletInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/FakeServletOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/FakeServletRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/FakeServletResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/chainofresponsability/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/chain/fakes/SimpleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/CommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/DBServerInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/DBServerInstanceGroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/class-use/DBServerInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/class-use/DBServerInstanceGroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/CommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstanceProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstanceStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/CommandJob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/DBServerInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/DBServerInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/QueryInstanceStatusCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StartInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StartInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StopInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StopInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/CommandJob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/DBServerInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/DBServerInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/QueryInstanceStatusCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StartInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StartInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StopInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StopInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/DBServerInstanceResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/QueryInstanceStatusResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/class-use/DBServerInstanceResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/class-use/QueryInstanceStatusResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotConnectException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotStartInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/NotUniqueDBInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/class-use/CouldNotConnectException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/class-use/CouldNotStartInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/class-use/NotUniqueDBInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/CommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/Schedule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/class-use/CommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/class-use/Schedule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/DBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/GroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/InstanceNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/ReferenceDBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/DBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/GroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/InstanceNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/ReferenceDBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/resources/inherit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/apidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeDBServerInstanceCommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/class-use/FakeDBServerInstanceCommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/class-use/FakeInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/QueryInstanceStatusCommandTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/QueryInstanceStatusCommandTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/DBServerInstanceServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/DBServerInstanceServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyCommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/class-use/SpyCommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/class-use/SpyDBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/class-use/SpyDBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/resources/inherit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site-1.0-SNAPSHOT/testapidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/CommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/DBServerInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/DBServerInstanceGroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/class-use/DBServerInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/class-use/DBServerInstanceGroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/CommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstanceProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/DBServerInstanceStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/CommandJob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/DBServerInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/DBServerInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/QueryInstanceStatusCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StartInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StartInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StopInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StopInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/CommandJob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/DBServerInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/DBServerInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/QueryInstanceStatusCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StartInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StartInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StopInstanceCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/class-use/StopInstanceGroupCommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/DBServerInstanceResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/QueryInstanceStatusResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/class-use/DBServerInstanceResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/class-use/QueryInstanceStatusResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotConnectException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotStartInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/NotUniqueDBInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/class-use/CouldNotConnectException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/class-use/CouldNotStartInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/class-use/NotUniqueDBInstanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/CommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/Schedule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/class-use/CommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/class-use/Schedule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/DBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/GroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/InstanceNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/ReferenceDBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/DBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/GroupNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/InstanceNotFoundException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/ReferenceDBServerInstanceService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/resources/inherit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/apidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeDBServerInstanceCommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/class-use/FakeDBServerInstanceCommandFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/class-use/FakeInstanceGroupDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/QueryInstanceStatusCommandTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/class-use/QueryInstanceStatusCommandTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/DBServerInstanceServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/class-use/DBServerInstanceServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/service/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyCommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/class-use/SpyCommandScheduler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/class-use/SpyDBServerInstance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/class-use/SpyDBServerInstanceGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/resources/inherit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/site/0.1-SNAPSHOT/testapidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/DBServerInstanceGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/DAO/DBServerInstanceGroupNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/DBServerInstanceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/CommandJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/DBServerInstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/DBServerInstanceGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/QueryInstanceStatusCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StartInstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StartInstanceGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StopInstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/StopInstanceGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/DBServerInstanceResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/QueryInstanceStatusResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotStartInstanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/NotUniqueDBInstanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/CommandScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/scheduler/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/service/DBServerInstanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/service/GroupNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/service/InstanceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/service/ReferenceDBServerInstanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeDBServerInstanceCommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeInstanceGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/QueryInstanceStatusCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/service/DBServerInstanceServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyCommandScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstanceGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/WorkBench.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/HumiditySensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/TemperatureSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/WeatherStationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/WeatherStationControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/WindSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/dao/CityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/ModelObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/WeatherZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/representations/JSONWeatherReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/service/WeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/tranferobject/WeatherReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/ServerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/WeatherServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/dao/FakeCityDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeCityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeHTTPHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeHTTPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeWeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeWeatherStationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeWeatherStationControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iteratoor/command/DAO/DBServerInstanceGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iteratoor/command/DAO/DBServerInstanceGroupNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/CommandJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/DBServerInstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/DBServerInstanceGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/QueryInstanceStatusCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StartInstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StartInstanceGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StopInstanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StopInstanceGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions/CouldNotConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions/CouldNotStartInstanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions/NotUniqueDBInstanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/results/DBServerInstanceResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/results/QueryInstanceStatusResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/scheduler/CommandScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/scheduler/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstanceGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstanceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstanceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/DBServerInstanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/GroupNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/InstanceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/ReferenceDBServerInstanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/CommandJobIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/fakes/FakeDBServerInstanceCommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/fakes/FakeInstanceGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/model/QueryInstanceStatusCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/DBServerInstanceServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies/SpyCommandScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies/SpyDBServerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies/SpyDBServerInstanceGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/ApplianceCommunicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/director/CommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/director/DefaulCommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/director/ErrorDirectingCommandsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/director/FailStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/CouldNotExecuteCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/CouldNotRollbackCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/StartApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/StopApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/TurnOffAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/TurnOnApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/mediator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/command/director/CommandDirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance/ApplianceCommunicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance/snapshot/Snapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance/snapshot/Snapshotable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/CouldNotExecuteCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/CouldNotRollbackCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/StartApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/StopApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/TurnOffAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/TurnOnApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/director/CommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/director/DefaulCommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/director/ErrorDirectingCommandsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/director/FailStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/memento/director/CommandDirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/memento/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/AbstractAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/ApplianceCommunicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/Toaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/dao/ApplianceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/snapshot/Snapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/snapshot/Snapshotable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/CouldNotExecuteCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/CouldNotRollbackCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/StartApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/StopApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/TurnOffAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/TurnOnApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/director/CommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/director/DefaulCommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/director/ErrorDirectingCommandsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/director/FailStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/ApplianceEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/AttributeChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/EventData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/alarm/HumidityAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/alarm/LowBateryAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/alarm/TemperatureAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/event/statechange/StateChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/interpreter/EventDataInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/interpreter/JSONEventDataInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/ApplianceEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/MapperChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/command/director/CommandDirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes/FakeAlarmMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes/FakeApplianceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes/FakeStateChangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/observers/ApplianceEventObservableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/SimpleVehicleBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/VehicleBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/VehiclePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/CannotHaveZeroPartsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/CouldNotCloneLastObjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/NeedToPackLastVehicleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/VehicleDoesNotHavePartsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/AbstractVehiclePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/Shell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/VehiclePartEnumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/VehiclePartPropertiesEnumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/model/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/test/java/eu/jpereira/trainings/designpatterns/creational/prototype/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/prototype/src/test/java/eu/jpereira/trainings/designpatterns/creational/prototype/SimpleVehicleBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/TrafficLightsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/TrafficLightsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/ControllerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/GenericTrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/ITrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/LightsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/PowerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/ProxyTrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/ResilientTrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/TrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/controller/exceptions/CouldNotConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/model/GenericTrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/model/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/main/java/eu/jpereira/trainings/designpatterns/structural/proxy/model/exceptions/CouldNotSendCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/TrafficLightsManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakeFailureTrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakeProxyTrafficLightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakeResilientTrafficLightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakeTrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakeTrafficLightContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakeTrafficLightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakedProxyTrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakedResilientTrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakedResilientTrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/model/TrafficLightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/testconfig/TestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/AbstractAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/ApplianceCommunicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/Toaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/CommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/ConnectionProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/HTTPCommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/RMICommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/SocketCommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/dao/ApplianceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/snapshot/Snapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/snapshot/Snapshotable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/AbstractApplianceStateBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/ApplianceState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/ApplianceStateBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/OffState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/OnState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/StartedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/StoppedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/UnknowState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/CouldNotExecuteCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/CouldNotRollbackCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/StartApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/StopApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/TurnOffAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/TurnOnApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/director/CommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/director/DefaulCommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/director/ErrorDirectingCommandsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/director/FailStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/ApplianceEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/AttributeChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/EventData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/alarm/HumidityAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/alarm/LowBateryAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/alarm/TemperatureAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/statechange/StateChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/interpreter/EventDataInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/interpreter/JSONEventDataInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/ApplianceEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/MapperChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/communication/CommunicationStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/ApplianceStateBehaviorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/command/director/CommandDirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/fakes/FakeAlarmMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/fakes/FakeApplianceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/fakes/FakeCommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/fakes/FakeStateChangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/strategy/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/EventMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visito/appliance/AbstractAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visito/appliance/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visito/appliance/Toaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/alarming/AlarmMemoryStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/appliance/dao/ApplianceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/appliance/snapshot/Snapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/appliance/snapshot/Snapshotable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/CouldNotExecuteCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/CouldNotRollbackCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/StartApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/StopApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/TurnOffAppliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/TurnOnApplianceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/director/CommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/director/DefaulCommandDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/director/ErrorDirectingCommandsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/director/FailStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/ApplianceEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/AttributeChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/EventData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm/HumidityAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm/LowBateryAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm/TemperatureAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/EventFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/Filterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/HumidityAlarmFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/TemperatureAlarmFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/statechange/StateChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/interpreter/EventDataInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/interpreter/JSONEventDataInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/AbstractEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/ApplianceEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/MapperChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/observers/ApplianceEventObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/observers/ApplianceEventObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/alarming/AlarmMemoryStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/command/director/CommandDirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/fakes/FakeAlarmMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/fakes/FakeApplianceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/fakes/FakeStateChangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/filtering/FilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/AbstractMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/EventMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trunk/visitor/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/observers/ApplianceEventObservableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/DoorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/DoorNotManagedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/SimpleDoorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/ThirdPartyDoorAdaper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/CodeMismatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/IncorrectDoorCodeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/model/Door.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/model/SimpleDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotChangeCodeForUnlockedDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotChangeStateOfLockedDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotUnlockDoorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/DoorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/SimpleDoorControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/src/test/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/DoorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/DoorNotManagedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/SimpleDoorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/ThirdPartyDoorAdaper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/.svn/text-base/CodeMismatchException.java.svn-base" beforeDir="false" afterPath="$PROJECT_DIR$/../../trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/CodeMismatchException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/IncorrectDoorCodeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/model/Door.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/model/SimpleDoor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoor$DoorState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoor$LockStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/.svn/text-base/CannotChangeStateOfLockedDoor.java.svn-base" beforeDir="false" afterPath="$PROJECT_DIR$/../../trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visito/appliance/ApplianceCommunicationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotChangeCodeForUnlockedDoor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotChangeStateOfLockedDoor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotUnlockDoorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/TEST-eu.jpereira.trainings.designpatterns.structural.adapter.DoorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/TEST-eu.jpereira.trainings.designpatterns.structural.adapter.SimpleDoorControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/TEST-eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyAdapterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/TEST-eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorObjectAdapterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/TEST-eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/eu.jpereira.trainings.designpatterns.structural.adapter.DoorTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/eu.jpereira.trainings.designpatterns.structural.adapter.SimpleDoorControllerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyAdapterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorObjectAdapterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/surefire-reports/eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/DoorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/SimpleDoorControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/.svn/text-base/ThirdPartyAdapterTest.java.svn-base" beforeDir="false" afterPath="$PROJECT_DIR$/../../trunk/proxy/src/test/java/eu/jpereira/trainings/designpatterns/structural/proxy/fakes/FakedProxyTrafficLightControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyAdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorObjectAdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1/adapter/target/test-classes/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/HTMLReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/json/JSONReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/ReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/SaleEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/SoldItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/xml/XMLReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2/builder/src/test/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssemblerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3/singleton/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/crwaling/CannotCrawlException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/crwaling/DummySiteCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/crwaling/SiteCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3/singleton/src/test/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/AbstractReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/HTMLReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/JSONReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/PDFReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/XMLReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/test/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/AbstractReportingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/factorymethod/src/test/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/json/JSONReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/json/JSONReportFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/json/JSONReportHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/xml/XMLReportBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/xml/XMLReportFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/xml/XMLReportHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/abstractfactory/src/test/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/CompositeShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/LeafShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/ShapeDoesNotSupportChildren.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/ShapeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/main/java/eu/jpereira/trainings/designpatterns/structural/composite/model/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6/composite/src/test/java/eu/jpereira/trainings/designpatterns/structural/composite/ShapeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/AbstractAppliance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/Appliance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/ApplianceCommunicationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/Toaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/dao/ApplianceDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/snapshot/Snapshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/snapshot/Snapshotable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/ApplianceState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/ApplianceStateBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/OffState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/OnState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/StartedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/StoppedState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/UnknowState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/AbstractCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/CouldNotExecuteCommandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/CouldNotRollbackCommandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/StartApplianceCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/StopApplianceCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/TurnOffAppliance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/TurnOnApplianceCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/UndoableCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/director/CommandDirector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/director/DefaulCommandDirector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/director/ErrorDirectingCommandsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/director/FailStategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/Alarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/ApplianceEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/AttributeChangeEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/EventData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/alarm/HumidityAlarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/alarm/LowBateryAlarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/alarm/TemperatureAlarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/event/statechange/StateChangeEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/interpreter/EventDataInterpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/interpreter/JSONEventDataInterpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/mapper/ApplianceEventMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/mapper/EventMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/mapper/LinkedListQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/state/mapper/MapperChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/ApplianceStateBehaviorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/EventTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/director/CommandDirectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeAlarmMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeApplianceDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeStateChangeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/mapper/EventMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/SocialPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/DefaultSocialChannelBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/FacebookChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/LinkedinChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/SocialChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/SocialChannelBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/SocialChannelProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/SocialChannelPropertyKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/TwitterChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/MessageTruncator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/SocialChannelDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/main/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/URLAppender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/IntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/SocialPublisherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/ChannelPropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/DefaultSocialChannelBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/SocialChannelBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/AbstractSocialChanneldDecoratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/MessageTruncatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/SocialChannelDecortatorIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/URLAppenderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/dummy/DummySocialChannelBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/dummy/TestDummyChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/spy/TestSpySocialChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/spy/TestSpySocialChannelBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/DispatchReceipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/BookDBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/CustomerDBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/CustomerNotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/OrderingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/WharehouseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/AbstractClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/facade/BookStoreFacadeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/service/TestCustomerDBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/facade/src/test/java/eu/jpereira/trainings/designpatterns/structural/facade/service/fake/FakeCustomerNotificationService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HzwKJXGGOhhiq1DQp5OwEV8YxJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/02/builder",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ThirdPartyDoorObjectAdapterTest.testThrowExceptionForIncorrectCodeChangingCode">
+    <configuration name="All in adapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adapter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdPartyAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty" />
+      <option name="MAIN_CLASS_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyAdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdPartyDoorObjectAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty" />
+      <option name="MAIN_CLASS_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorObjectAdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdPartyDoorObjectAdapterTest.testThrowExceptionForIncorrectCodeChangingCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty" />
+      <option name="MAIN_CLASS_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorObjectAdapterTest" />
+      <option name="METHOD_NAME" value="testThrowExceptionForIncorrectCodeChangingCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdPartyDoorTest.testUnlockDoor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty" />
+      <option name="MAIN_CLASS_NAME" value="eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.ThirdPartyDoorTest" />
+      <option name="METHOD_NAME" value="testUnlockDoor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ThirdPartyDoorObjectAdapterTest.testThrowExceptionForIncorrectCodeChangingCode" />
+        <item itemvalue="JUnit.ThirdPartyDoorObjectAdapterTest" />
+        <item itemvalue="JUnit.ThirdPartyAdapterTest" />
+        <item itemvalue="JUnit.ThirdPartyDoorTest.testUnlockDoor" />
+        <item itemvalue="JUnit.All in adapter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\mixfi\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b9c5635-44b3-4d08-add4-05c94a0b3ff2" name="Changes" comment="" />
+      <created>1669301157443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669301157443</updated>
+      <workItem from="1669301159805" duration="4279000" />
+      <workItem from="1669901068511" duration="986000" />
+      <workItem from="1669908644398" duration="17000" />
+      <workItem from="1669911944001" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
