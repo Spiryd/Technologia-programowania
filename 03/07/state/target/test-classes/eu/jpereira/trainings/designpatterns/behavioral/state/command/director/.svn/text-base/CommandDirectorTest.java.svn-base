@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package eu.jpereira.trainings.designpatterns.behavioral.mediator.command.director;
+package eu.jpereira.trainings.designpatterns.behavioral.state.command.director;
 
 import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.inOrder;
@@ -23,15 +23,15 @@ import static org.mockito.Mockito.verify;
 import org.junit.Test;
 import org.mockito.InOrder;
 
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.appliance.Appliance;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.appliance.ApplianceCommunicationException;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.appliance.director.CommandDirector;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.appliance.director.DefaulCommandDirector;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.appliance.director.ErrorDirectingCommandsException;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.command.Command;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.command.Event;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.command.StartApplianceCommand;
-import eu.jpereira.trainings.designpatterns.behavioral.mediator.command.TurnOnApplianceCommand;
+import eu.jpereira.trainings.designpatterns.behavioral.state.appliance.Appliance;
+import eu.jpereira.trainings.designpatterns.behavioral.state.appliance.ApplianceCommunicationException;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.Command;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.Event;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.StartApplianceCommand;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.TurnOnApplianceCommand;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.director.CommandDirector;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.director.DefaulCommandDirector;
+import eu.jpereira.trainings.designpatterns.behavioral.state.command.director.ErrorDirectingCommandsException;
 
 /**
  * A Test for {@link DefaulCommandDirector}
@@ -138,9 +138,8 @@ public class CommandDirectorTest {
 	 * @return
 	 */
 	protected CommandDirector createCommandDirector() {
-		//TODO: 1) Go DefaultCommandDirector and follow the TODOs. Come back here and return an instance of DefaultCommandDirector 
-		//return null;
-		//TODO: Uncomment after complete TODO 1
+	
+		
 		return new DefaulCommandDirector();
 	}
 }
