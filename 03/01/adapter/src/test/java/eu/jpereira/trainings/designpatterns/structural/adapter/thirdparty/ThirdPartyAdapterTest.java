@@ -15,7 +15,6 @@
  */
 package eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty;
 
-import static org.junit.Assert.*;
 import eu.jpereira.trainings.designpatterns.structural.adapter.DoorTest;
 import eu.jpereira.trainings.designpatterns.structural.adapter.model.Door;
 import eu.jpereira.trainings.designpatterns.structural.adapter.model.SimpleDoor;
