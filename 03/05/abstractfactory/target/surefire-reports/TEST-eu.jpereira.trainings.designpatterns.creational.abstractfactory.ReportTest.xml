@@ -63,6 +63,6 @@
     <property name="sun.stdout.encoding" value="cp852"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="eu.jpereira.trainings.designpatterns.creational.abstractfactory.ReportTest" name="testCreateXMLReport" time="0.005"/>
-  <testcase classname="eu.jpereira.trainings.designpatterns.creational.abstractfactory.ReportTest" name="testCreateJSONReport" time="0.001"/>
+  <testcase classname="eu.jpereira.trainings.designpatterns.creational.abstractfactory.ReportTest" name="testCreateXMLReport" time="0.006"/>
+  <testcase classname="eu.jpereira.trainings.designpatterns.creational.abstractfactory.ReportTest" name="testCreateJSONReport" time="0"/>
 </testsuite>

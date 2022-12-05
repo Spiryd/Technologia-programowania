@@ -41,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/10.1/proxy",
+    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/09/facade",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +86,7 @@
       <updated>1669985026354</updated>
       <workItem from="1669985027821" duration="979000" />
       <workItem from="1669986562208" duration="26000" />
+      <workItem from="1670224597490" duration="167000" />
     </task>
     <servers />
   </component>

@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2IMoXy0Qe8qJpzBBWIL8U5PIoLs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/05/abstractfactory",
+    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/06/composite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670000857121</updated>
       <workItem from="1670000858440" duration="1322000" />
+      <workItem from="1670224302607" duration="140000" />
     </task>
     <servers />
   </component>

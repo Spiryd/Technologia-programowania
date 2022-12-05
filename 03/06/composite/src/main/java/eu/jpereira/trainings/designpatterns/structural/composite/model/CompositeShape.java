@@ -63,7 +63,6 @@ public abstract class CompositeShape extends Shape {
 	 */
 	public void addShape(Shape shape) throws ShapeDoesNotSupportChildren{
 		if (this.isComposite()) {
-			// TODO: Implement
 			shapes.add(shape);
 		} else {
 			throw new ShapeDoesNotSupportChildren();
@@ -72,7 +71,6 @@ public abstract class CompositeShape extends Shape {
 
 	public List<Shape> getShapes() {
 		return this.shapes;
-
 	}
 
 	/**

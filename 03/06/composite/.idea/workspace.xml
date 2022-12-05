@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/04/factorymethod",
+    "last_opened_file_path": "E:/INA SEM3/Technologia-programowania/03/08/decorator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669915697303</updated>
       <workItem from="1669915698659" duration="4338000" />
+      <workItem from="1670224444482" duration="125000" />
     </task>
     <servers />
   </component>

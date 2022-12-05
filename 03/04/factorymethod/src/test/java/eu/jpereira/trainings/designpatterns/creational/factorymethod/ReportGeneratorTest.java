@@ -18,11 +18,12 @@ package eu.jpereira.trainings.designpatterns.creational.factorymethod;
 
 import static org.junit.Assert.*;
 
-import org.junit.Test;
 
 import eu.jpereira.trainings.designpatterns.creational.factorymethod.Report;
 import eu.jpereira.trainings.designpatterns.creational.factorymethod.ReportData;
 import eu.jpereira.trainings.designpatterns.creational.factorymethod.ReportGenerator;
+import org.junit.Test;
+
 public class ReportGeneratorTest extends AbstractReportingTest{
 
 	
